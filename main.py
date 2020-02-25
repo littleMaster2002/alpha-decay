@@ -20,9 +20,8 @@ plt.plot(Time,noAtomsNonDecay)
 plt.title("Alpha Decay of Po-211")
 plt.xlabel("Time / s")
 plt.ylabel("Number of atoms remaining")
+plt.pause(1)
 plt.show(block=False)
-
-time.sleep(5)
 
 im1 = Image.open('nucleus.gif')
 im2 = Image.open('decayedNucleus.gif')
@@ -55,4 +54,4 @@ for i in range(number):
     frameCounter = 0
     frames = []
 
-plt.show()
+
